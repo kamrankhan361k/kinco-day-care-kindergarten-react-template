@@ -1,0 +1,98 @@
+@import "../public/assets/css/style.css";
+
+@import "../public/assets/css/responsive.css";
+
+@import "./mfp.css";
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
+.inner-current-item a {
+  color: var(--primary-color3) !important;
+}
+
+.owl-carousel {
+  display: block !important;
+}
+
+.flat-accordion .flat-toggle .toggle-content {
+  display: block !important;
+}
+
+.themesflat-pagination ul li .page-numbers.active,
+.themesflat-pagination ul li .page-numbers.current {
+  background-color: var(--primary-color6);
+  color: #fff;
+}
+
+.progress-couter .couter .chart {
+  height: unset;
+}
+
+.teacher .progress-couter .couter .chart {
+  margin-bottom: -9px;
+  margin-top: -16px;
+}
+.wrap-couter .progress-couter {
+  padding: 25px;
+}
+
+.noUi-connects {
+  height: 4px;
+  border: none;
+  background-color: rgba(20, 29, 56, 0.1);
+  border-radius: 0px;
+}
+
+.noUi-target.noUi-ltr.noUi-horizontal.noUi-txt-dir-ltr {
+  height: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.noUi-handle.noUi-handle-lower,
+.noUi-handle.noUi-handle-upper,
+.noUi-touch-area {
+  height: 16px !important;
+  width: 4px !important;
+  border: none !important;
+  background: #43baff;
+  outline: none;
+  margin-left: 0;
+  border: none;
+  cursor: pointer;
+  left: 18px;
+}
+
+.noUi-connect {
+  background: #43baff !important;
+}
+.noUi-handle:before,
+.noUi-handle:after {
+  width: 0 !important;
+}
+
+/* .noUi-handle.noUi-handle-lower {
+  left: 0 !important;
+} */
+
+.swiper-pagination-bullet {
+  opacity: 1;
+}
+.coustom-padding {
+  padding: 60px 50px 57px;
+}
+
+.home2TestimonialSlider
+  .owl-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  left: unset;
+  width: unset;
+}
+
+.home2TestimonialSlider span.swiper-pagination-bullet {
+  display: block;
+  margin: 10px 0 !important;
+}
